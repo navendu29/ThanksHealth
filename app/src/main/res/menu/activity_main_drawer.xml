@@ -5,26 +5,34 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera1"
+            android:id="@+id/profile"
             android:icon="@drawable/ic_menu_camera"
             android:title="Profile" />
 
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/pedometer"
             android:icon="@drawable/ic_menu_camera"
             android:title="Pedometer" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/badges"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Buy" />
+            android:title="Badges" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/StepHistrory"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="History" />
+            android:title="Steps History" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/UsageHistory"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Fit Top 10" />
+            android:title="Usage History" />
+
+        <item
+            android:id="@+id/TransactionalHistory"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Transactional History" />
+
+
+
     </group>
 
     <item android:title="Communicate">
@@ -32,11 +40,11 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="measure HeartBeat" />
+                android:title="Settings" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="BMI" />
+                android:title="Logut" />
         </menu>
     </item>
 
